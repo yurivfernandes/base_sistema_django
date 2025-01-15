@@ -1,0 +1,31 @@
+<svg width="200" height="50" viewBox="0 0 200 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Hexágono de fundo -->
+    <path d="M40 10L55 2L70 10L70 26L55 34L40 26L40 10Z" fill="#4318FF" />
+
+    <!-- Linhas de dados -->
+    <path d="M45 18L52 12M52 28L59 22" stroke="#A388FF" stroke-width="1.5" />
+
+    <!-- Ícone de gráfico -->
+    <path d="M48 20L51 16L54 22L57 18" stroke="white" stroke-width="1.5" fill="none" />
+
+    <!-- Nome da empresa com gradiente -->
+    <defs>
+        <linearGradient id="textGradient" x1="0" y1="0" x2="200" y2="0">
+            <stop offset="0%" stop-color="#4318FF" />
+            <stop offset="100%" stop-color="#A388FF" />
+        </linearGradient>
+    </defs>
+
+    <!-- Texto GesTri com fonte moderna -->
+    <text x="80" y="28" fill="url(#textGradient)" font-family="Arial Black, sans-serif" font-size="24"
+        font-weight="bold">
+        Ges<tspan fill="#4318FF">Tri</tspan>
+    </text>
+
+    <!-- Elemento decorativo -->
+    <circle cx="160" cy="25" r="3" fill="#4318FF" />
+    <circle cx="170" cy="25" r="3" fill="#A388FF" />
+
+    <!-- Linha decorativa -->
+    <path d="M35 40L175 40" stroke="#4318FF" stroke-width="0.5" stroke-dasharray="4 2" />
+</svg>
